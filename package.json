@@ -1,0 +1,19 @@
+{
+  "name": "mlgallery",
+  "version": "1.0.0",
+  "description": "Machine Learning Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "PraSh",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "15.10.0"
+  }
+}
