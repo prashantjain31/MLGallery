@@ -5,6 +5,6 @@ const spamHamRouter = express.Router();
 const spamHamController = require("../controllers/spamHamController")
 
 spamHamRouter.route("/")
-.get(spamHamController.spamHamClassifier)
+.post(spamHamController.spamHamClassifier)
 
 module.exports = spamHamRouter;
